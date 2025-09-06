@@ -4,9 +4,9 @@ import { HandHelping, Heart, Lightbulb } from "lucide-react";
 import Image from "next/image";
 
 const teamMembers = [
-  { name: "Jeanne Dupont", role: "Directrice", image: "https://picsum.photos/200/200?a=1", hint: "professional portrait" },
-  { name: "Marc Petit", role: "Coordinateur social", image: "https://picsum.photos/200/200?a=2", hint: "man portrait" },
-  { name: "Sophie Martin", role: "Psychologue", image: "https://picsum.photos/200/200?a=3", hint: "woman smiling" },
+  { name: "Vivien-Yagoub Sophie", role: "Directrice", image: "https://picsum.photos/200/200?a=1", hint: "professional portrait" },
+  { name: "Dome Cyrille", role: "Coordinateur social", image: "https://picsum.photos/200/200?a=2", hint: "man portrait" },
+  { name: "Hemery Julie", role: "Psychologue", image: "https://picsum.photos/200/200?a=3", hint: "woman smiling" },
   { name: "Luc Moreau", role: "Responsable juridique", image: "https://picsum.photos/200/200?a=4", hint: "professional man" },
 ];
 
