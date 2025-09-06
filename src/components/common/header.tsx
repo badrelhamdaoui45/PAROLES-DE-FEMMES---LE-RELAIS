@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
-import { Heart, Menu, X } from "lucide-react";
+import { Heart, Menu, MessageSquareQuote, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -56,8 +56,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-card/95 backdrop-blur-sm">
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
-        <Link href="/" className="font-headline text-xl font-bold text-primary">
-          Paroles de Femmes
+        <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold text-primary">
+          <MessageSquareQuote className="h-6 w-6" />
+          <span>Paroles de Femmes</span>
         </Link>
         <nav className="hidden items-center space-x-6 md:flex">
           {navLinks.map((link) => (
@@ -83,8 +84,9 @@ export function Header() {
               <SheetContent side="right" className="w-[300px]">
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between border-b pb-6">
-                     <Link href="/" className="font-headline text-xl font-bold text-primary">
-                        Paroles de Femmes
+                     <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold text-primary">
+                        <MessageSquareQuote className="h-6 w-6" />
+                        <span>Paroles de Femmes</span>
                       </Link>
                      <SheetClose asChild>
                         <Button variant="ghost" size="icon">
