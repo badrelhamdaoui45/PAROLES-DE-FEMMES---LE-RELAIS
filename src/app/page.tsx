@@ -51,7 +51,7 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="relative flex h-[60vh] min-h-[400px] w-full items-center justify-center bg-background/80 py-20 md:py-32">
         <Image
-          src="https://picsum.photos/1600/900"
+          src="/IMG1.jpeg"
           alt="Woman looking towards the horizon"
           fill
           className="object-cover -z-10"
