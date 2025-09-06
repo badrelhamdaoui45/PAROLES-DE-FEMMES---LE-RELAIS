@@ -12,6 +12,7 @@ const navLinks = [
   { href: "/about", label: "À Propos" },
   { href: "/services", label: "Services" },
   { href: "/news", label: "Actualités" },
+  { href: "/benevoles", label: "Bénévoles" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -57,7 +58,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-card/95 backdrop-blur-sm">
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold text-primary">
-          <HeartHandshake className="h-6 w-6" />
+          <HeartHandshake className="h-8 w-8" />
           <span>Paroles de Femmes</span>
         </Link>
         <nav className="hidden items-center space-x-6 md:flex">
