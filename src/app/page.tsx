@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { BookOpenCheck, HeartHandshake, Home as HomeIcon, Newspaper } from "lucide-react";
+import { BookOpenCheck, HeartHandshake, Newspaper, Home } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 const services = [
   {
-    icon: <HomeIcon className="h-10 w-10 text-primary" />,
+    icon: <Home className="h-10 w-10 text-primary" />,
     title: "Hébergement",
     description: "Des solutions d'hébergement sécurisées pour les femmes et leurs enfants.",
   },
@@ -27,26 +27,26 @@ const newsItems = [
     title: "Campagne de sensibilisation",
     date: "15 Octobre 2023",
     excerpt: "Notre nouvelle campagne vise à briser le silence sur les violences conjugales.",
-    imageUrl: "https://picsum.photos/600/400?a=5",
+    imageUrl: "/IMG2.jpeg",
     imageHint: "community support"
   },
   {
     title: "Gala de charité annuel",
     date: "28 Septembre 2023",
     excerpt: "Une soirée réussie pour collecter des fonds et soutenir nos actions.",
-    imageUrl: "https://picsum.photos/600/400?a=6",
+    imageUrl: "/IMG3.jpeg",
     imageHint: "event charity"
   },
   {
     title: "Témoignage : le chemin vers la résilience",
     date: "12 Septembre 2023",
     excerpt: "L'histoire inspirante de Marie, qui a reconstruit sa vie grâce à l'association.",
-    imageUrl: "https://picsum.photos/600/400?a=7",
+    imageUrl: "/IMG3.jpeg",
     imageHint: "woman portrait"
   },
 ];
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className="flex flex-col">
       <section className="relative flex h-[60vh] min-h-[400px] w-full items-center justify-center bg-background/80 py-20 md:py-32">
