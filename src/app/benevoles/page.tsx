@@ -64,7 +64,7 @@ export default function VolunteersPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Image src="https://picsum.photos/800/500" alt="Volunteers working together" width={800} height={500} className="rounded-lg mb-6 w-full object-cover" data-ai-hint="volunteers community" />
+                <Image src="/IMG1.jpeg" alt="Volunteers working together" width={800} height={500} className="rounded-lg mb-6 w-full object-cover" data-ai-hint="volunteers community" />
                 <p className="mb-6">
                     Que vous ayez des compétences en écoute, en organisation, en communication ou simplement l'envie d'aider, il y a une place pour vous.
                 </p>
