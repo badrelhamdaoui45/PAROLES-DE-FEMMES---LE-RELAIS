@@ -22,7 +22,7 @@ const volunteers: Volunteer[] = [
   {
     id: "PF322",
     name: "Brie Paulet",
-    image: "https://picsum.photos/200/200?a=5",
+    image: "/PRO_HEADSHOOT.jpeg",
     imageHint: "woman portrait smiling",
   },
 ];
