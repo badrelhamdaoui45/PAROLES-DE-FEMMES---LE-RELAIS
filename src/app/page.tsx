@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { BookOpenCheck, HeartHandshake, Newspaper, Home } from "lucide-react";
@@ -41,7 +42,7 @@ const newsItems = [
     title: "Témoignage : le chemin vers la résilience",
     date: "12 Septembre 2023",
     excerpt: "L'histoire inspirante de Marie, qui a reconstruit sa vie grâce à l'association.",
-    imageUrl: "/IMG3.jpeg",
+    imageUrl: "/IMG4.jpeg",
     imageHint: "woman portrait"
   },
 ];
