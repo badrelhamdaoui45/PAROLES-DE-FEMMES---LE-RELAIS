@@ -39,7 +39,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
-               <Image src="https://picsum.photos/800/600" alt="Group of diverse women" width={800} height={600} className="w-full h-full object-cover" data-ai-hint="diverse women" />
+               <Image src="/IMG1.jpeg" alt="Group of diverse women" width={800} height={600} className="w-full h-full object-cover" data-ai-hint="diverse women" />
             </div>
           </div>
         </div>
